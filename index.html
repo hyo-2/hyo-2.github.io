@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SHAKESHAKE</title>
+    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+      function togglemenu(){
+      	document.getElementById('sidebar').classList.toggle('active');
+      }
+      function openNav() {
+      	document.getElementById('mysidenav').style.width = '250px';
+      }
+      function closeNav() {
+      	document.getElementById('mysidenav').style.width = '0';
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+    <div id="top">
+			<img id ="topimg" src="ss_logo.png" height="60px">
+		</div>
+    <br><br>
+		</a></header>
+
+      <div id="menu">
+        <section id="left">
+           <div class="demo">
+                <label for="toggle" class="btn" onclick='openNav()'><i class="material-icons"> menu </i><span style="font-family: 'PT Neue', Neue;font-size:18px;">Jquery list
+                (메인 이미지 밑 iframe에 나타납니다.)</span></label>
+                <label for="toggle" class="closer"></label>
+                <div id="mysidenav" class="sidenav">
+                  <h1>JQUERY LIST</h1><hr>
+                     <a href="#" class="closebtn" onclick='closeNav(); return false'> x </a>
+                     <br>
+                      <a href="faidIn.html" target = "if1">faidIn</a>
+                      <br><br>
+                       <a href="methodtest2.html" target = "if1">methodtest</a>
+                       <br><br>
+                       <a href="slidup_down.html" target = "if1">slideup_down</a>
+                       <br><br>
+                       <a href="animate.html" target = "if1">animate</a>
+                       <br><br>
+                </div>
+           </div>
+         </section>
+       </div>
+           <nav>
+             <ul>
+               <li><a href = "Burger.html">Burger</a></li>
+               <li><a href = "Drink.html">Drink</a></li>
+               <li><a href = "Location.html">Location</a></li>
+             </ul>
+           </nav>
+    <section id ="main">
+  				  <img src="main1.jpg" style="width:100%">
+
+            <article id ="article1">
+              <iframe name = "if1" margin= "30dp" width = "800" height = "800"></iframe>
+            </article>
+
+    </section>
+    <footer>
+      2004-2016 SHAKE SHACK. ALL RIGHTS RESERVED.<br>
+      SOME INFORMATION ON THIS SITE MAY VARY SLIGHTLY BY<br>
+      LOCATION AND IN STADIUMS,<br>
+      EVENT VENUES AND INTERNATIONAL SHACKS.<br>
+
+      영상정보처리기기운영·관리방침<br>
+    </footer>
+  </body>
+</html>

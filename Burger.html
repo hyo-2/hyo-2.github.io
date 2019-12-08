@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="Burger.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#btn").click(function(){
+          $("#burger1").css("visibility", "visible");
+          $("#burger2").css("visibility", "visible");
+          $("span").css("visibility", "visible");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+    <div id="top">
+      <a href="index.html"><img id ="topimg" src="ss_logo.png" height="60px"></a>
+		</div>
+    <br><br>
+		</header>
+    <nav>
+      <ul>
+        <li><a href = "Burger.html">Burger</a></li>
+        <li><a href = "Drink.html">Drink</a></li>
+        <li><a href = "Location.html">Location</a></li>
+      </ul>
+    </nav>
+    <div id=text1>
+      <h1>Burger</h1>
+    </div>
+    <section>
+      <div id="img_container">
+        <div id="imgs">
+          <img src="burger_main.jpg" id="burger_main"><br>
+          <button id="btn"><i class="material-icons">keyboard_arrow_down</i></button>
+        </div>
+          <table class="type06">
+            <tr>
+                <td rowspan="2" align = "center">
+                    <div id="imgs_sub">
+                        <img src="burger2.jpg" id="burger2">
+                    </div>
+                </td>
+                <td>
+                  <span id="text2">
+                    치킨버거 W 7,9
+                </td>
+            </tr>
+            <tr>
+                <td><span id="text2">버터밀크에 조리한 닭가슴 통살을 바삭하게 튀겨낸 치킨과 양배추,
+                피클 그리고 허브 마요네즈를 함께한 버거
+              </td>
+            </tr>
+            <td rowspan="2" align = "center">
+              <div id="imgs_sub">
+                  <img src="burger1.jpg" id="burger1">
+              </div>
+            </td>
+            <td>
+              <span id="text3">
+                핫도그 W 4,4
+            </td>
+        </tr>
+        <tr>
+            <td><span id="text3">비프 소시지가 들어간 핫 도그
+          </td>
+        </tr>
+          </table>
+
+  </section>
+    <footer>
+      2004-2016 SHAKE SHACK. ALL RIGHTS RESERVED.<br>
+      SOME INFORMATION ON THIS SITE MAY VARY SLIGHTLY BY<br>
+      LOCATION AND IN STADIUMS,<br>
+      EVENT VENUES AND INTERNATIONAL SHACKS.<br>
+
+      영상정보처리기기운영·관리방침<br>
+    </footer>
+  </body>
+</html>

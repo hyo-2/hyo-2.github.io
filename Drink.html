@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="Drink.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#btn").click(function(){
+          $("#img_container").slideToggle(2000);
+          $("#drink1").css("visibility", "visible");
+          $("#drink2").css("visibility", "visible");
+          $("span").css("visibility", "visible");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+    <div id="top">
+      <a href="index.html"><img id ="topimg" src="ss_logo.png" height="60px"></a>
+		</div>
+    <br><br>
+		</header>
+    <nav>
+      <ul>
+        <li><a href = "Burger.html">Burger</a></li>
+        <li><a href = "Drink.html">Drink</a></li>
+        <li><a href = "Location.html">Location</a></li>
+      </ul>
+    </nav>
+    <div id=text1>
+      <h1>Drink</h1>
+    </div>
+    <section>
+      <div id="imgs">
+        <img src="drink_main.jpg" id="drink_main"><br>
+        <button id="btn"><i class="material-icons">keyboard_arrow_down</i></button>
+      </div>
+      <div id="img_container">
+          <table class="type06">
+            <tr>
+                <td rowspan="2" align = "center">
+                    <div id="imgs_sub">
+                        <img src="drink1.jpg" id="drink1">
+                    </div>
+                </td>
+                <td>
+                  <span id="text2">
+                    레몬에이드
+                </td>
+            </tr>
+            <tr>
+                <td><span id="text2">상큼한 레몬에이드
+                  <br>Small W 3,9<br>Large W 4,5
+              </td>
+            </tr>
+            <td rowspan="2" align = "center">
+              <div id="imgs_sub">
+                  <img src="drink2.jpg" id="drink2">
+              </div>
+            </td>
+            <td>
+              <span id="text3">
+                탄산음료
+            </td>
+        </tr>
+        <tr>
+            <td><span id="text3">
+              코카콜라, 코카콜라 제로, 스프라이트, 환타 오렌지, 환타 그레이프
+              <br>Small W 2,7<br>Large W 3,3
+          </td>
+        </tr>
+          </table>
+
+  </section>
+    <footer>
+      2004-2016 SHAKE SHACK. ALL RIGHTS RESERVED.<br>
+      SOME INFORMATION ON THIS SITE MAY VARY SLIGHTLY BY<br>
+      LOCATION AND IN STADIUMS,<br>
+      EVENT VENUES AND INTERNATIONAL SHACKS.<br>
+
+      영상정보처리기기운영·관리방침<br>
+    </footer>
+  </body>
+</html>

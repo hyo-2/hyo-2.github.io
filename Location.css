@@ -1,0 +1,76 @@
+#top img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:60px;
+}
+nav{
+  margin-left: 40px;
+  position: relative;
+}
+nav ul{
+  list-style: none;
+  text-align: center;
+  border-top: 1px solid green;
+  border-bottom: 1px solid green;
+  font-weight: bold;
+  padding: 10px 0;
+}
+nav ul li{
+  margin-top: auto;
+  display: inline;
+  text-transform: uppercase;
+  padding: 0 10px;
+  letter-spacing: 10px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+nav ul li a:hover{/*마우스를 올렸을 때*/
+  text-decoration: underline;
+  color: green;
+}
+footer{
+  background: #242424;
+  text-align: center;
+  font-size: 10px;
+  color: #909090;
+  clear: both;
+}
+#text1{
+  color:#1c1c1c;
+  margin-left: 32px;
+  font-size: 20px;
+  font-family: 'Ibarra Real Nova', Neue;
+  font-weight: lighter;
+  text-align: center;
+}
+button{
+  background-color: green;
+  border: none;
+  width : 150px;
+  height: 30px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+#location{
+  text-align: center;
+}
+#lo1{
+    visibility: hidden;
+}
+#lo2{
+    visibility: hidden;
+}
+#lo3{
+    visibility: hidden;
+}
+#lo4{
+    visibility: hidden;
+}
+#lo5{
+    visibility: hidden;
+}
